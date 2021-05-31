@@ -1,0 +1,103 @@
+
+body{
+    background-color:rgb(139, 15, 211);
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem;
+}
+.header{
+    width: 280px;
+}
+.logo{
+    width: 200px;
+    margin: 10px;
+}
+@media (min-width: 768px) {
+    .logo{
+        width: 300px;
+        margin: 30px;
+    }
+}
+.container{
+    width: 280px;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (min-width: 768px) {
+    .container{
+        width: 1200px;
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+.mockup{
+    width: 280px;
+    margin: 10px;
+}
+@media (min-width: 768px) {
+    .mockup{
+        width: 750px;
+        margin: 30px 150px 50px 100px;
+    }
+}
+.article_title{
+    color:white;
+    font-size: 28px;
+    margin:10px 20px ;
+}
+.text{
+    color:white;
+    font-size: 20px;
+    font-weight: 300;
+    width: 280px;
+    margin: 10px 30px;
+}
+.boton{
+    background-color: white;
+    color:rgb(139, 15, 211);
+    padding: 10px 90px;
+    border: none;
+    border-radius:20px;
+}
+@media (min-width: 768px) {
+    .article_title{
+        font-size: 42px;
+        width: 450px;
+    }
+    .text{
+        font-size: 32px;
+        width: auto;
+        margin: 50px;
+    }
+    .boton{
+        font-size: 26px;
+        padding: 15px 100px;
+    }
+    .boton:hover{
+        color: white;
+        background-color: violet;
+    }
+}
+.icons{
+    color:white;
+    margin-top: 10px;;
+}
+.icons img{
+    width: 30px;
+    color: white;
+    margin: 0 7px;
+}
+@media (min-width: 768px) {
+    .icons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 115%;
+    }
+    .icons img{
+        width: 60px;
+        
+    }
+}
